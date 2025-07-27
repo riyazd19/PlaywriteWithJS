@@ -1,2 +1,15 @@
 # PlaywriteWithJS
 PlaywriteWithJS
+This is a noraml project for learning playwright
+note: - to run any playwrite project there are few pre req one is throught terminal
+ie 
+1. ones you created any folder in the terminal you run the command "npn install playwright@lates" from this you follow
+2. Second one is you download the playwright extention in vs code >> then in open command Palatte under VIEW option or ctrl+shift+P
+>> then select Test: Install playwright and then follow the instructions
+
+
+
+ few command to use in playwrighte
+ 1. npx playwright test >> this is to execute all tests in test folder which is created on creation of playwrite project 
+ 2. npx playwright test --headed >> by default tests in playwright run headless so this command changes into headed mode
+ 3. npx playwright show-report  >> to show reports ones all are done
